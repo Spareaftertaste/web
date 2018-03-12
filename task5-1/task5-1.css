@@ -89,8 +89,8 @@ footer {
     font-size: .14rem;
 }
 .content> div{
-    margin: 0 0 0 .16rem;
-    padding: .16rem 0 .16rem .1rem;
+    margin: 0 .16rem;
+    padding: .16rem .1rem;
     border-bottom: #e1e5e7 solid;
 }
 .title{
@@ -133,7 +133,7 @@ footer {
     padding: 0 .16rem 0 0;
 }
 .skill{
-    padding: 0 .16rem 0 .16rem;
+    padding-left: .16rem;
 }
 .price> .right{
     color: red;
