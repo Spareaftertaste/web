@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaaca86c-14cf-408d-80b4-f898f9f44748" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/task5-1/task5-1.html" afterPath="$PROJECT_DIR$/task5-1/task5-1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,21 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="task5-1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="task5-1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task5-1/task5-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="513">
+              <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task5-1.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task5-1.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task5-1/task5-1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="135" column="25" lean-forward="true" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+            <state relative-caret-position="3375">
+              <caret line="125" column="10" lean-forward="false" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -72,8 +72,8 @@
         <option value="$PROJECT_DIR$/task4.css" />
         <option value="$PROJECT_DIR$/task4/task4.css" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/task5-1/task5-1.html" />
         <option value="$PROJECT_DIR$/task5-1/task5-1.css" />
+        <option value="$PROJECT_DIR$/task5-1/task5-1.html" />
       </list>
     </option>
   </component>
@@ -104,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,7 +117,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,6 +179,8 @@
       <workItem from="1520830776306" duration="13697000" />
       <workItem from="1520853140479" duration="2468000" />
       <workItem from="1520856389855" duration="645000" />
+      <workItem from="1520901990097" duration="600000" />
+      <workItem from="1520902711542" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="nothing change">
       <created>1520313780916</created>
@@ -285,11 +287,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520857026627</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="修正了任务5底部透明的问题">
+      <created>1520902579156</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1520902579156</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98811000" />
+    <option name="totallyTimeSpent" value="99439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="413" y="12" width="1306" height="1090" extended-state="0" />
@@ -370,7 +379,8 @@
     <MESSAGE value="任务4完成整理了文件夹" />
     <MESSAGE value="任务五完成" />
     <MESSAGE value="修正了内容下边框两边不一致" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正了内容下边框两边不一致" />
+    <MESSAGE value="修正了任务5底部透明的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正了任务5底部透明的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -456,18 +466,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task5-1/task5-1.html">
+    <entry file="file://$PROJECT_DIR$/task5-1/task5-1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="3375">
+          <caret line="125" column="10" lean-forward="false" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task5-1/task5-1.css">
+    <entry file="file://$PROJECT_DIR$/task5-1/task5-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="135" column="25" lean-forward="true" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+        <state relative-caret-position="513">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding />
         </state>
       </provider>
