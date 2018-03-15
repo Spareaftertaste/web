@@ -1,0 +1,16 @@
+.b{
+    border: black 5px solid;
+    height: 100px;
+}
+
+.b {
+    float:left;
+    margin:50px;
+    width:250px;
+    height:250px;
+    box-sizing:border-box;
+    border:10px solid transparent;
+    background-clip:padding-box,border-box;
+    background-origin:padding-box,border-box;
+    background-image:linear-gradient(#fff,#fff),linear-gradient(#5c5fa5,#893f60);
+}

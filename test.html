@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>background test</title>
-    <style>
-        .a{
-           width: 50px;height: 50px;background-clip: content-box;border: green 10px solid;background-color: red;padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+    <script href="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="a"></div>
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+    <div class="col-xs-6 col-md-8">.col-xs-12 .col-md-8</div>
+    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
 
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+<div class="row">
+    <div class="col-xs-3 col-md-4">.col-xs-6 .col-md-4</div>
+    <div class="col-xs-3 col-md-4">.col-xs-6 .col-md-4</div>
+    <div class="col-xs-3 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<div class="row">
+    <div class="col-xs-2">.col-xs-6</div>
+    <div class="col-xs-2 b">
+        <span class="ab"></span>
+    </div>
+</div>
 </body>
 </html>
