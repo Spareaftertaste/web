@@ -6,25 +6,211 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="task5-2.css">
-    <script href="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../jquery-3.3.1/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </head>
 <body>
-    <!--<div class="container">-->
-        <header>
-            <div class="row">
-                <div class="col-xs-6">
-                    <button class="btn btn-default" type="button">找雇主</button>
-                </div>
-                <div class="col-xs-6">
-                    <button class="btn btn-default" type="button">找护工</button>
-                </div>
-                <div class="col-xs-1 col-xs-offset-2">
-                    <div class="address">
-                        <img src="img/address.png">
-                    </div>
+    <header>
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3">
+                <div class="topbtn">
+                    <button class="titlebtnleft" type="button">找雇主</button>
+                    <button class="titlebtnright" type="button">找护工</button>
                 </div>
             </div>
-        </header>
-        <!--</div>-->
+            <div class="col-xs-1 col-xs-offset-1">
+                <div class="address">
+                    <img src="img/address.png">
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="row">
+            <div class="col-xs-4 btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle dropdownmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>所在地</span>
+                    <span class="caret triangle"></span>
+                </button>
+                <ul class="dropdown-menu menulist">
+                    <li><a href="#">北京</a></li>
+                    <li><a href="#">上海</a></li>
+                    <li><a href="#">广州</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4 middlelist">
+                <button type="button" class="btn btn-default dropdown-toggle dropdownmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>食宿   </span>
+                    <span class="caret triangle"></span>
+                </button>
+                <ul class="dropdown-menu menulist">
+                    <li><a href="#"></a></li>
+                    <li><a href="#">自己解决</a></li>
+                    <li><a href="#">包住</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4 ">
+                <button type="button" class="btn btn-default dropdown-toggle dropdownmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>病人情况</span>
+                    <span class="caret triangle"></span>
+                </button>
+                <ul class="dropdown-menu menulist">
+                    <li><a href="#">奄奄一息</a></li>
+                    <li><a href="#">还OK</a></li>
+                    <li><a href="#">很棒</a></li>
+                    <li><a href="#">绝佳</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="row content-1">
+            <div class="col-xs-8 content-2">
+                <div>
+                    <span class="servicedate">服务日期</span>
+                </div>
+                <div>
+                    <span class="date">2015-7-5至2017-5-12</span>
+                </div>
+                <div>
+                    <span class="serviceaddress">北京.通州.果园</span>
+                </div>
+            </div>
+            <div class="col-xs-4 content-price">
+                <div class="price">
+                    <span>25元/小时</span>
+                    <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row content-1">
+            <div class="col-xs-8 content-2">
+                <div>
+                    <span class="servicedate">服务日期</span>
+                </div>
+                <div>
+                    <span class="date">2015-7-5至2017-5-12</span>
+                </div>
+                <div>
+                    <span class="serviceaddress">北京.通州.果园</span>
+                </div>
+            </div>
+            <div class="col-xs-4 content-price">
+                <div class="price">
+                    <span>25元/小时</span>
+                    <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row content-1">
+            <div class="col-xs-8 content-2">
+                <div>
+                    <span class="servicedate">服务日期</span>
+                </div>
+                <div>
+                    <span class="date">2015-7-5至2017-5-12</span>
+                </div>
+                <div>
+                    <span class="serviceaddress">北京.通州.果园</span>
+                </div>
+            </div>
+            <div class="col-xs-4 content-price">
+                <div class="price">
+                    <span>25元/小时</span>
+                    <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row content-1">
+            <div class="col-xs-8 content-2">
+                <div>
+                    <span class="servicedate">服务日期</span>
+                </div>
+                <div>
+                    <span class="date">2015-7-5至2017-5-12</span>
+                </div>
+                <div>
+                    <span class="serviceaddress">北京.通州.果园</span>
+                </div>
+            </div>
+            <div class="col-xs-4 content-price">
+                <div class="price">
+                    <span>25元/小时</span>
+                    <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row content-1">
+            <div class="col-xs-8 content-2">
+                <div>
+                    <span class="servicedate">服务日期</span>
+                </div>
+                <div>
+                    <span class="date">2015-7-5至2017-5-12</span>
+                </div>
+                <div>
+                    <span class="serviceaddress">北京.通州.果园</span>
+                </div>
+            </div>
+            <div class="col-xs-4 content-price">
+                <div class="price">
+                    <span>25元/小时</span>
+                    <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row content-1">
+            <div class="col-xs-8 content-2">
+                <div>
+                    <span class="servicedate">服务日期</span>
+                </div>
+                <div>
+                    <span class="date">2015-7-5至2017-5-12</span>
+                </div>
+                <div>
+                    <span class="serviceaddress">北京.通州.果园</span>
+                </div>
+            </div>
+            <div class="col-xs-4 content-price">
+                <div class="price">
+                    <span>25元/小时</span>
+                    <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row content-1">
+            <div class="col-xs-8 content-2">
+                <div>
+                    <span class="servicedate">服务日期</span>
+                </div>
+                <div>
+                    <span class="date">2015-7-5至2017-5-12</span>
+                </div>
+                <div>
+                    <span class="serviceaddress">北京.通州.果园</span>
+                </div>
+            </div>
+            <div class="col-xs-4 content-price">
+                <div class="price">
+                    <span>25元/小时</span>
+                    <span class="arrow"></span>
+                </div>
+            </div>
+        </div>
+        <div class="blank"></div>
+    </section>
+    <footer>
+            <div class="home">
+                <img src="img/home.png"/>
+                <span>首页</span>
+            </div>
+            <div class="edit">
+                <img src="img/edit.png"/>
+            </div>
+            <div class="mine">
+                <img src="img/mine.png"/>
+                <span>我的</span>
+            </div>
+    </footer>
 </body>
 </html>
