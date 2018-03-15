@@ -53,14 +53,7 @@ footer {
     color: #fff;
 }
 .addres{
-    font-size: .1rem;
-    letter-spacing: 1px;
-    background: url("img/address.png")
-                scroll
-                left center
-                no-repeat;
-    padding: 0 0 0 0.1rem;
-    margin: .05rem 0 0;
+
 }
 .message{
     float: left;
