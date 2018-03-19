@@ -64,12 +64,12 @@ footer{
 }
 /*上面是顶部的样式*/
 .music_btn{
-    position: absolute;top: .06rem;right: .11rem;
+    position: absolute;top: .045rem;right: .11rem;
     background-image: url("img/play.png");
     background-repeat: no-repeat;
     background-color: transparent;
-    width: 26px;
-    height: 26px;
+    width: .35rem;
+    height: .35rem;
     border: none;
 }
 .small_triangle{
