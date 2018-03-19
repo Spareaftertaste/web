@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="game.css">
+    <script type="text/javascript" src="../jquery-3.3.1/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="music.js"></script>
+</head>
+<body>
+    <header>
+        <span>投票</span>
+        <img class="select_btn" src="img/select.png"/>
+        <img class="close_btn" src="img/close.png"/>
+    </header>
+    <nav>
+        <div class="row">
+            <div class="col-xs-8">
+                <span>&#12288&#32发言结束请大家现在开始投票</span>
+            </div>
+            <div class="col-xs-2 col-xs-offset-2">
+                <button class="music_btn" onclick="playmusic()">
+                    <audio id="music">
+                        <source src="music/财富自由.mp3" type="audio/mp3">
+                    </audio>
+                </button>
+            </div>
+            <div class="col-xs-12 nav_bottom">
+                <span class="small_triangle"></span>
+                <span>点击票数最多的人</span>
+            </div>
+            <!--<div class="col-xs-12 nav_bottom">-->
+                <!--<span>点击票数最多人的头像</span>-->
+            <!--</div>-->
+        </div>
+    </nav>
+    <footer>
+        <a class="vote" href="gameover.html">
+            投死
+        </a>
+    </footer>
+</body>
+</html>
