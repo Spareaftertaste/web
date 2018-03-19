@@ -25,7 +25,7 @@ nav {
     top: .3rem;
     left: 0;
     right: 0;
-    font-size: .1rem;
+    font-size: .12rem;
     height: .7rem;
     line-height: .4rem;
     background-color: #b9e9f5;
@@ -83,7 +83,7 @@ footer{
 .nav_bottom{
     height: .4rem;
     background-color: #29bde0;
-    font-size: .08rem;
+    font-size: .115rem;
     letter-spacing: 2px;
     color: #fff;
 }
@@ -118,7 +118,7 @@ footer{
 .numble {
     width: 100%;
     height: 15%;
-    font-size: 2.8vw;
+    font-size: 2.5vw;
     color: #fff;
     background-color: #83b09a;
     text-align: center;
@@ -162,9 +162,9 @@ footer{
 /*以上是中间内容*/
 .vote{
     display: inline-block;
-    margin-top: .2rem;
+    margin-top: .15rem;
     width: 65%;
-    height: 60%;
+    height: 70%;
     /*line-height: 4.8rem;*/
     background-color: #fbb435;
 }
@@ -174,5 +174,5 @@ footer{
     background-color: transparent;
     border: none;
     color: #fff;
-    font-size: 4vw;
+    font-size: 2.5vw;
 }
