@@ -6,59 +6,16 @@
     <title>图片轮播</title>
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="test.css" />
-    <style>
-
-    </style>
 </head>
 <body >
-
-<div id="myCarousel" class="carousel slide">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
-        <li data-target="#myCarousel" data-slide-to="1"> </li>
-        <li data-target="#myCarousel" data-slide-to="2"> </li>
-
-    </ol>
-    <div class="carousel-inner">
-        <div class="item active" style="background:#223240;">
-            <img src="img/slide1.png" alt="第一张" />
-        </div>
-        <div class="item" style="background:#F5E4DC;">
-            <img src="img/slide2.png" alt="第二张" />
-        </div>
-        <div class="item" style="background:#DE2A2D;">
-            <img src="img/slide3.png" alt="第三张" />
+<div class="abcd">
+    <div class="row">
+        <div class="col-xs-8 abc">
+            <img src="task7/img/play.png">
         </div>
     </div>
-    <a href="#myCarousel" data-slide="prev" class="carousel-control left">
-        <span class="glyphicon glyphicon-chevron-left"> </span>
-    </a>
-    <a href="#myCarousel" data-slide="next" class="carousel-control right">
-        <span class="glyphicon glyphicon-chevron-right"> </span>
-    </a>
 </div>
-<ul id="banner_btn">
-    <li class="curr"></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
-
-
-
 <script src="jquery-3.3.1/jquery-3.3.1.js"></script>
 <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-<script type="text/javascript">
-
-
-
-    //自动播放
-    $("#myCarousel").carousel({
-        interval :1000,
-    });
-
-
-</script>
 </body>
 </html>
