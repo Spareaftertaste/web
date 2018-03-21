@@ -99,3 +99,212 @@ a:hover{
 .section_title{
     color: #29b078;
 }
+.direction{
+    margin-top: .2rem;
+    height: .4rem;
+    border-top: 1px #d0d6d9 solid;
+    border-bottom: 1px #edf1f2 solid;
+    display: flex;
+    align-items: center;
+}
+.direction_title{
+    color: #a1a1a1;
+    height: .3rem;
+    line-height: .3rem;
+}
+.direction_btn{
+    padding: 0 .05rem;
+    height: .3rem;
+    line-height: .3rem;
+    margin: 0 .1rem;
+    color: #333;
+}
+.direction_btn:hover{
+    color: #fff;
+    background-color: #29b078;
+}
+/*以上是内容上方导航栏样式*/
+.job_title{
+    margin-bottom: .4rem;
+    height: .4rem;
+    line-height: .4rem;
+    border-bottom: #d0d6d9 1px solid;
+}
+.job_label{
+    position: relative;
+    margin-bottom: .2rem;
+    display: inline-block;
+    width: 2.8rem;
+    border: #eeeded 1px solid;
+    font-size: .11rem;
+}
+.label_title{
+    height: 1.2rem;
+    border-bottom: #eeeded 1px solid;
+    display: flex;
+}
+.label_photo{
+    margin: .1rem;
+    display: inline-block;
+    background: url("../img/occupation/photo_03.png") no-repeat;
+    background-size: 1rem 1rem;
+    width: 1rem;
+    height: 1rem;
+}
+.label_content{
+    display: inline-block;
+    width: 2.1rem;
+    height: 100%;
+}
+.label_content_title{
+    height: .3rem;
+    line-height: .3rem;
+    font-size: .13rem;
+}
+.label_threshold{
+    display: inline-block;
+    padding-left: .1rem;
+    height: .22rem;
+    line-height: .22rem;
+    width: 50%;
+    border-right: #edf1f2 1px solid;
+}
+.label_difficulty{
+    display: inline-block;
+    padding-left: .1rem;
+    height: .22rem;
+    line-height: .22rem;
+}
+.label_time{
+    display: inline-block;
+    padding-left: .1rem;
+    height: .22rem;
+    line-height: .22rem;
+    width: 50%;
+    border-right: #edf1f2 1px solid;
+}
+.label_rare{
+    display: inline-block;
+    padding-left: .1rem;
+    height: .22rem;
+    line-height: .22rem;
+}
+.line{
+    border-bottom: #edf1f2 1px solid;
+}
+.wage{
+    display: flex;
+    border-bottom: #edf1f2 1px solid;
+}
+.label_wages{
+    height: .66rem;
+    line-height: .66rem;
+    text-align: center;
+    color: #a1a1a1;
+    width: 50%;
+    border-right: #edf1f2 1px solid;
+}
+.wage_list{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+.wages_a{
+    /*display: inline-block;*/
+    padding: 0 .1rem;
+    height: .22rem;
+    line-height: .22rem;
+    border-bottom: #edf1f2 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.label_people{
+    padding-left: .1rem;
+    height: .4rem;
+    line-height: .4rem;
+    font-size: .13rem;
+    border-bottom: #edf1f2 1px solid;
+}
+.label_tip{
+    padding-left: .1rem;
+    height: .4rem;
+    line-height:.4rem;
+    font-size: .09rem;
+    color: #a1a1a1;
+}
+.label_start{
+    padding-left: .1rem;
+    color: #ff5c00;
+}
+.red{
+    color: #f01400;
+}
+.gray{
+    color: #a1a1a1;
+}
+
+.eggs{
+    position: absolute;top: 0;
+    padding: .2rem .1rem;
+    background-color: rgba(69,69,69,.6);
+    height: 3.133rem;
+    color: #fff;
+    font-size: .13rem;
+    visibility: hidden;
+}
+.eggs_title{
+    margin-bottom: .2rem;
+    font-size: .18rem;
+    text-align: center;
+}
+.job_label:hover .eggs{
+    visibility: visible;
+}
+/*以上中间的内容样式*/
+.footer_part{
+    height: .8rem;
+    font-size: 0;
+}
+.footer_title{
+    font-size: .12rem;
+}
+.footer_link_left{
+    display: inline-block;
+    margin-top: .5rem;
+    padding: 0 .05rem;
+    height: .12rem;
+    line-height: .12rem;
+    font-size: .09rem;
+    color: #dfeee7;
+}
+.contact_us{
+    border-left: 1px #fff solid;
+    border-right: 1px #fff solid;
+}
+.footer_link_right{
+    display: inline-block;
+    height: .2rem;
+    margin-top: .15rem;
+    margin-right: .1rem;
+    font-size: .09rem;
+    color: #dfeee7;
+}
+.footer_link_right:hover{
+    border-bottom: #fff 1px solid;
+}
+.qrcode{
+    background: url("../img/index/qrcode.png") no-repeat;
+    background-size: .7rem .7rem;
+    width: .7rem;
+    height: .7rem;
+    font-size: 0;
+}
+.license_plate{
+    position: relative;bottom: 0;
+    padding: .03rem 0;
+    text-align: center;
+    color: #32c086;
+    font-size: .08rem;
+    border-top: 1px #32c086 solid;
+    background-color: #26a26f;
+}
