@@ -1,0 +1,101 @@
+html{
+    font-size: 100px;
+    background-color: #f0f0f0;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 0 8vw;
+    color: #29b078;
+    font-size: .15rem;
+    height: .4rem;
+    line-height: .4rem;
+}
+nav{
+    padding: 0 8vw;
+    height: .8rem;
+    background-color: #29b078;
+    color: #fff;
+}
+section{
+    padding: .2rem 8vw 1rem 8vw;
+    background-color: #fafafa;
+}
+footer{
+    /*height: 1.6rem;*/
+    padding: .2rem 8vw .2rem 8vw;
+    background-color: #26a26f;
+    color: #eaf4ef;
+}
+a{
+    height: 100%;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/*img{*/
+/*transform: scale(0.5);*/
+/*}*/
+.row{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/*以上是全局样式*/
+.header_logo{
+    height: .4rem;
+    margin: .2rem 0;
+}
+.header_btn_list{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+}
+.header_btn{
+    margin-right: .05rem;
+    background: url("../img/index/qqwechatsina.png") no-repeat;
+    background-size: .276rem .9rem;
+    vertical-align: middle;
+    width: .276rem;
+    height: .3rem;
+    border: none;
+}
+.wechat{
+    background-position: 0 0;
+}
+.qq{
+    background-position: 0 -.3rem;
+}
+.sian{
+    background-position: 0 -.6rem;
+}
+/*以上是顶部样式*/
+.nav_list{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nav_a{
+    font-size: 0;
+}
+.nav_btn{
+    font-size: .15rem;
+    box-sizing: border-box;
+    height: .8rem;
+    line-height: .8rem;
+    width: .8rem;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+.nav_btn:hover{
+    border-bottom: .04rem #fefefe solid;
+    text-decoration: none;
+}
+/*以上是导航栏样式*/
+.section_title{
+    color: #29b078;
+}
