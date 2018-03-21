@@ -7,12 +7,14 @@ html{
     margin: 0;
 }
 header{
+    padding: 0 8vw;
     color: #29b078;
     font-size: .15rem;
     height: .4rem;
     line-height: .4rem;
 }
 nav{
+    padding: 0 8vw;
     height: .8rem;
     background-color: #29b078;
     color: #fff;
@@ -22,8 +24,20 @@ section{
     padding: 1rem 8vw 0 8vw;
     background-color: #fafafa;
 }
+.footer_nav{
+    padding: 0 8vw;
+}
+footer{
+    /*height: 1.6rem;*/
+    padding: .2rem 8vw .2rem 8vw;
+    background-color: #26a26f;
+    color: #eaf4ef;
+}
 a{
     height: 100%;
+    text-decoration: none;
+}
+a:hover{
     text-decoration: none;
 }
 img{
@@ -35,6 +49,12 @@ img{
     height: 100%;
 }
 /*以上是全局样式*/
+.header_btn_list{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+}
 .header_btn{
     margin-right: .05rem;
     background: url("../img/index/qqwechatsina.png") no-repeat;
@@ -54,6 +74,10 @@ img{
     background-position: 0 -.6rem;
 }
 /*以上是顶部样式*/
+.nav_list{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .nav_a{
     font-size: 0;
 }
@@ -61,6 +85,7 @@ img{
     font-size: .15rem;
     box-sizing: border-box;
     height: .8rem;
+    line-height: .8rem;
     width: .8rem;
     color: #fff;
     background-color: transparent;
@@ -186,7 +211,9 @@ img{
     box-sizing: border-box;
     padding: .1rem .2rem;
     background-color: #fff;
-    border: 1px solid #eeeded;
+    border: 2px solid #eeeded;
+    border-radius: 5px;
+    box-shadow: #eeeded;
 }
 .student_photo{
     margin: 0 auto;
@@ -216,4 +243,109 @@ img{
 .student_introduction{
     color: #999;
     font-size: .12rem;
+}
+.small_point_list{
+    display: flex;
+    justify-content: center;
+}
+.small_point {
+    margin: .1rem .05rem;
+    width: .1rem;
+    height: .1rem;
+    border-radius: .05rem;
+    border: 1px #e4e4e4 solid;
+    background-color: #fff;
+}
+.small_point:hover{
+    background-color: #29b078;
+}
+.company_list{
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+}
+.company{
+    padding: .4rem 0;
+    /*align-items: center;*/
+    background-color: #fff;
+    flex-basis: 25%;
+}
+.company_photo{
+    max-width: 60%;
+    max-height: 60%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.company:hover{
+    border: 2px #f5f5f5 solid;
+    box-shadow: 5px 5px 5px 5px #f5f5f5;
+}
+.link_title{
+    margin: .1rem 0;
+    text-align: center;
+    color: #333;
+    font-size: .13rem;
+}
+.friendship_link{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link{
+    color: #999;
+    height: .3rem;
+    line-height: .3rem;
+    flex-basis: 10%;
+}
+.link_point{
+    font-size: .2rem;
+}
+/*以上是中间的内容*/
+.footer_part{
+    height: .8rem;
+    font-size: 0;
+}
+.footer_title{
+    font-size: .12rem;
+}
+.footer_link_left{
+    display: inline-block;
+    margin-top: .5rem;
+    padding: 0 .05rem;
+    height: .12rem;
+    line-height: .12rem;
+    font-size: .09rem;
+    color: #dfeee7;
+}
+.contact_us{
+    border-left: 1px #fff solid;
+    border-right: 1px #fff solid;
+}
+.footer_link_right{
+    display: inline-block;
+    height: .2rem;
+    margin-top: .15rem;
+    margin-right: .1rem;
+    font-size: .09rem;
+    color: #dfeee7;
+}
+.footer_link_right:hover{
+    border-bottom: #fff 1px solid;
+}
+.qrcode{
+    background: url("../img/index/qrcode.png") no-repeat;
+    background-size: .7rem .7rem;
+    width: .7rem;
+    height: .7rem;
+    font-size: 0;
+}
+.license_plate{
+    position: relative;bottom: 0;
+    padding: .03rem 0;
+    text-align: center;
+    color: #32c086;
+    font-size: .08rem;
+    border-top: 1px #32c086 solid;
+    background-color: #26a26f;
 }
