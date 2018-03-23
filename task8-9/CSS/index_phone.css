@@ -201,11 +201,11 @@ button{
 }
 .step_number{
     display: inline-block;
-    width: .5rem;
-    height: .5rem;
-    line-height: .5rem;
+    width: .4rem;
+    height: .4rem;
+    line-height: .4rem;
     border: 1px #999 solid;
-    border-radius: 2.5rem;
+    border-radius: 2rem;
     background-color: #fff;
     color: #29b078;
     font-size: .15rem;
