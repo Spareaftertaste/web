@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eaaca86c-14cf-408d-80b4-f898f9f44748" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/task8-9/CSS/about_pc.css" afterPath="$PROJECT_DIR$/task8-9/CSS/about_pc.css" />
-      <change beforePath="$PROJECT_DIR$/task8-9/CSS/about_phone.css" afterPath="$PROJECT_DIR$/task8-9/CSS/about_phone.css" />
-      <change beforePath="$PROJECT_DIR$/task8-9/CSS/career_recommendation_pc.css" afterPath="$PROJECT_DIR$/task8-9/CSS/career_recommendation_pc.css" />
-      <change beforePath="$PROJECT_DIR$/task8-9/CSS/career_recommendation_phone.css" afterPath="$PROJECT_DIR$/task8-9/CSS/career_recommendation_phone.css" />
       <change beforePath="$PROJECT_DIR$/task8-9/CSS/index_pc.css" afterPath="$PROJECT_DIR$/task8-9/CSS/index_pc.css" />
-      <change beforePath="$PROJECT_DIR$/task8-9/CSS/index_phone.css" afterPath="$PROJECT_DIR$/task8-9/CSS/index_phone.css" />
-      <change beforePath="$PROJECT_DIR$/task8-9/career_recommendation.html" afterPath="$PROJECT_DIR$/task8-9/career_recommendation.html" />
-      <change beforePath="$PROJECT_DIR$/task8-9/index.html" afterPath="$PROJECT_DIR$/task8-9/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task8-9/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="-2781">
+              <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -38,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_pc.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_pc.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task8-9/CSS/index_pc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
+            <state relative-caret-position="324">
+              <caret line="194" column="17" lean-forward="true" selection-start-line="194" selection-start-column="17" selection-end-line="194" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -51,7 +44,7 @@
       <file leaf-file-name="about_pc.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task8-9/CSS/about_pc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
+            <state relative-caret-position="2052">
               <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
               <folding />
             </state>
@@ -61,7 +54,7 @@
       <file leaf-file-name="career_recommendation_pc.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task8-9/CSS/career_recommendation_pc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="1728">
               <caret line="64" column="26" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
               <folding />
             </state>
@@ -71,17 +64,17 @@
       <file leaf-file-name="index_phone.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task8-9/CSS/index_phone.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
+            <state relative-caret-position="2457">
               <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_phone.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about_phone.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task8-9/CSS/about_phone.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-513">
+            <state relative-caret-position="27">
               <caret line="185" column="14" lean-forward="false" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
               <folding />
             </state>
@@ -91,7 +84,7 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task8-9/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2376">
+            <state relative-caret-position="378">
               <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
@@ -101,7 +94,7 @@
       <file leaf-file-name="career_recommendation_phone.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task8-9/CSS/career_recommendation_phone.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="2214">
               <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
               <folding />
             </state>
@@ -182,12 +175,12 @@
         <option value="$PROJECT_DIR$/task8-9/index.html" />
         <option value="$PROJECT_DIR$/task8-9/career_recommendation.html" />
         <option value="$PROJECT_DIR$/task8-9/about.html" />
-        <option value="$PROJECT_DIR$/task8-9/CSS/index_pc.css" />
         <option value="$PROJECT_DIR$/task8-9/CSS/about_pc.css" />
         <option value="$PROJECT_DIR$/task8-9/CSS/career_recommendation_pc.css" />
         <option value="$PROJECT_DIR$/task8-9/CSS/career_recommendation_phone.css" />
         <option value="$PROJECT_DIR$/task8-9/CSS/index_phone.css" />
         <option value="$PROJECT_DIR$/task8-9/CSS/about_phone.css" />
+        <option value="$PROJECT_DIR$/task8-9/CSS/index_pc.css" />
       </list>
     </option>
   </component>
@@ -198,8 +191,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="444" />
-    <option name="y" value="109" />
+    <option name="x" value="680" />
+    <option name="y" value="87" />
     <option name="width" value="1347" />
     <option name="height" value="1076" />
   </component>
@@ -218,7 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,7 +234,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,7 +329,8 @@
       <workItem from="1521672546740" duration="2180000" />
       <workItem from="1521689222778" duration="1729000" />
       <workItem from="1521714267279" duration="733000" />
-      <workItem from="1521788803485" duration="3919000" />
+      <workItem from="1521788803485" duration="3938000" />
+      <workItem from="1521792988281" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="nothing change">
       <created>1520313780916</created>
@@ -548,14 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1521790955886</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="修改手机上方按钮为登陆和注册">
+      <created>1521792733949</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1521792733949</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297013000" />
+    <option name="totallyTimeSpent" value="297266000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="444" y="109" width="1347" height="1076" extended-state="0" />
+    <frame x="680" y="87" width="1347" height="1076" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20830189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -807,33 +808,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#13;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#15;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#17;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#18;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#19;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#21;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#22;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#23;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8-9/CSS/about_pc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8-9/CSS/career_recommendation_pc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="64" column="26" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8-9/CSS/career_recommendation_phone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8-9/CSS/index_phone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2457">
+          <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8-9/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task8-9/CSS/about_phone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="185" column="14" lean-forward="false" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task8-9/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="-2781">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="n#div#2;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -844,56 +873,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task8-9/CSS/index_pc.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="72" column="6" lean-forward="true" selection-start-line="72" selection-start-column="6" selection-end-line="72" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task8-9/CSS/about_pc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task8-9/CSS/career_recommendation_pc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="64" column="26" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task8-9/CSS/career_recommendation_phone.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="82" column="10" lean-forward="false" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task8-9/CSS/index_phone.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task8-9/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2376">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task8-9/CSS/about_phone.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513">
-          <caret line="185" column="14" lean-forward="false" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="194" column="17" lean-forward="true" selection-start-line="194" selection-start-column="17" selection-end-line="194" selection-end-column="17" />
           <folding />
         </state>
       </provider>
