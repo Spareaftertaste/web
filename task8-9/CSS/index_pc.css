@@ -172,8 +172,7 @@ button{
     height: .15rem;
     width: 1rem;
     line-height: .15rem;
-    background: url("../img/index/user.png") no-repeat ;
-    background-position: 0 0;
+    background: url("../img/index/user.png") no-repeat .2rem 0;
     background-size: .15rem .15rem;
     color: #26a26f;
     font-size: .15rem;

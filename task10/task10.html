@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task10</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="task10-pc.css" media="(min-width:992px)">
+    <link rel="stylesheet" href="task10-phone.css" media="(max-width:991px)">
+    <script type="text/javascript" src="../jquery-3.3.1/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+<header>
+    <div class="row">
+        <div class="col-xs-6 ">
+            客服热线：010-594-78634
+        </div>
+        <div class="col-xs-6 header_btn_list">
+            <a class="login">登陆</a>
+            <a class="register">注册</a>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="row">
+        <div class="col-md-7 col-xs-12 col-md-offset-5 nav_list">
+            <a class="nav_a" href="#">
+                <button class="nav_btn index">首页</button>
+            </a>
+            <a class="nav_a" href="#">
+                <button class="nav_btn">在线定制</button>
+            </a>
+            <a class="nav_a" href="#">
+                <button class="nav_btn">标准箱</button>
+            </a>
+            <a class="nav_a" href="#">
+                <button class="nav_btn">品质保障</button>
+            </a>
+
+        </div>
+    </div>
+</nav>
+<section>
+    <div class="row">
+        <div class="col-md-7 col-xs-12 col-md-offset-5 nav_list">
+            <div class="progress_bar">
+                <div class="line line_1"></div>
+                <div class="numble numble_1">1</div>
+                <div class="progress_bar_content progress_bar_content_1">1.定制纸箱</div>
+            </div>
+            <div class="progress_bar">
+                <div class="line"></div>
+                <div class="numble">2</div>
+                <div class="progress_bar_content">2.选择数量</div>
+            </div>
+            <div class="progress_bar">
+                <div class="line"></div>
+                <div class="numble">3</div>
+                <div class="progress_bar_content">3.上传附件</div>
+            </div>
+            <div class="progress_bar">
+                <div class="line"></div>
+                <div class="numble">4</div>
+                <div class="progress_bar_content">4.确认下单</div>
+            </div>
+        </div>
+    </div>
+    <div class="section_title">请按照以下步骤来定制您的纸箱</div>
+    <form>
+        <div class="form-group">
+            <div class="form_title box_type">选择箱型</div>
+            <div class="select_group">
+                <label>
+                    <input type="radio" name="box" checked>
+                    <span>对口箱</span>
+                </label>
+                <label>
+                    <input type="radio" name="box">飞机盒
+                </label>
+                <label>
+                    <input type="radio" name="box">天地盖
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form_title box_size">确定尺寸</div>
+            <div>
+                <label>
+                    <input type="radio" name="size" checked>外径
+                    <span>
+                        长<input type="text" class="size_value">mm
+                    </span>
+                    <span>
+                        宽<input type="text" class="size_value">mm
+                    </span>
+                    <span>
+                        高<input type="text" class="size_value">mm
+                    </span>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="size">内径
+                    <span>
+                        长<input type="text">mm
+                    </span>
+                    <span>
+                        宽<input type="text">mm
+                    </span>
+                    <span>
+                        高<input type="text">mm
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form_title box_material">选择材质</div>
+            <div class="select_group">
+                <label>
+                    <input type="radio" name="box" checked>三层A瓦优质
+                </label>
+                <label>
+                    <input type="radio" name="box">三层A瓦优质
+                </label>
+                <label>
+                    <input type="radio" name="box">三层A瓦优质
+                </label>
+                <label>
+                    <input type="radio" name="box">三层A瓦优质
+                </label>
+                <label>
+                    <input type="radio" name="box">三层A瓦优质
+                </label>
+            </div>
+        </div>
+        <input type="submit" class="submit" value="下一步">
+    </form>
+</section>
+<footer>
+
+</footer>
+</body>
+</html>
