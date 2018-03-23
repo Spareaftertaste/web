@@ -211,7 +211,7 @@ button{
     flex-shrink: 1;
 }
 .step_arrow{
-    position: absolute;left: -.1rem;top: .14rem;
+    position: absolute;left: -.1rem;top: .1rem;
     background: url("../img/index/arrow.png") no-repeat;
     background-size: .2rem .2rem;
     width: .2rem;
