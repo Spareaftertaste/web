@@ -43,6 +43,9 @@ a:hover{
 img{
     transform: scale(0.5);
 }
+button{
+    outline: none;
+}
 .row{
     margin: 0;
     padding: 0;
@@ -51,7 +54,7 @@ img{
 /*以上是全局样式*/
 .header_btn_list{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     align-items: center;
     height: 100%;
 }
@@ -73,10 +76,23 @@ img{
 .sian{
     background-position: 0 -.3rem;
 }
+.header_btn_list> button{
+    display: none;
+}
+.login{
+    margin-right: .2rem;
+    padding-right: .2rem;
+    height: .1rem;
+    line-height: .1rem;
+    border-right: #26a26f 2px  solid;
+    color: #333;
+}
+.register{
+    color: #333;
+}
 /*以上是顶部样式*/
 .nav_list{
     display: flex;
-    flex-direction: row-reverse;
 }
 .nav_a{
     font-size: 0;
@@ -92,6 +108,10 @@ img{
     border: none;
 }
 .nav_btn:hover{
+    border-bottom: .04rem #fefefe solid;
+    text-decoration: none;
+}
+.index{
     border-bottom: .04rem #fefefe solid;
     text-decoration: none;
 }
@@ -144,7 +164,7 @@ img{
     margin-bottom: .2rem;
 }
 .rocket> .rocket_cotent{
-    text-align: left;
+    text-align: center;
     color: #999;
 }
 .people{
@@ -153,17 +173,20 @@ img{
 .user_statistics{
     padding: .3rem .2rem;
     color: #999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .user_number{
-    margin: .1rem 0;
+    margin: .1rem .25rem;
     height: .15rem;
+    width: 1rem;
     line-height: .15rem;
     background: url("../img/index/user.png") no-repeat ;
     background-position: 0 0;
     background-size: .15rem .15rem;
     color: #26a26f;
     font-size: .15rem;
-
 }
 .step_title{
     margin-top: 1rem;

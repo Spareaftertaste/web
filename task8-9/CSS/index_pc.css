@@ -43,6 +43,9 @@ a:hover{
 img{
     transform: scale(0.5);
 }
+button{
+    outline: none;
+}
 .row{
     margin: 0;
     padding: 0;
@@ -51,32 +54,34 @@ img{
 /*以上是全局样式*/
 .header_btn_list{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     align-items: center;
     height: 100%;
 }
 .header_btn{
     margin-right: .05rem;
     background: url("../img/index/qqwechatsina.png") no-repeat;
-    background-size: .276rem .9rem;
+    background-size: .3rem .9rem;
     vertical-align: middle;
-    width: .276rem;
+    width: .3rem;
     height: .3rem;
     border: none;
 }
 .wechat{
     background-position: 0 0;
 }
-.qq{
+.sina{
     background-position: 0 -.3rem;
 }
-.sian{
+.qq{
     background-position: 0 -.6rem;
+}
+.header_btn_list> a{
+    display: none;
 }
 /*以上是顶部样式*/
 .nav_list{
     display: flex;
-    flex-direction: row-reverse;
 }
 .nav_a{
     font-size: 0;
@@ -90,6 +95,10 @@ img{
     color: #fff;
     background-color: transparent;
     border: none;
+}
+.index{
+    border-bottom: .04rem #fefefe solid;
+    text-decoration: none;
 }
 .nav_btn:hover{
     border-bottom: .04rem #fefefe solid;
@@ -156,10 +165,12 @@ img{
 .user_statistics{
     padding: .3rem .2rem;
     color: #999;
+    text-align: center;
 }
 .user_number{
-    margin: .1rem 0;
+    margin: .1rem .25rem;
     height: .15rem;
+    width: 1rem;
     line-height: .15rem;
     background: url("../img/index/user.png") no-repeat ;
     background-position: 0 0;

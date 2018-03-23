@@ -36,6 +36,9 @@ a{
 a:hover{
     text-decoration: none;
 }
+button{
+    outline: none;
+}
 img{
     transform: scale(0.5);
 }
@@ -50,7 +53,7 @@ img{
 }
 .header_btn_list{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     align-items: center;
     height: 100%;
 }
@@ -72,10 +75,23 @@ img{
 .sian{
     background-position: 0 -.3rem;
 }
+.header_btn_list> button{
+    display: none;
+}
+.login{
+    margin-right: .2rem;
+    padding-right: .2rem;
+    height: .1rem;
+    line-height: .1rem;
+    border-right: #26a26f 2px  solid;
+    color: #333;
+}
+.register{
+    color: #333;
+}
 /*以上是顶部样式*/
 .nav_list{
     display: flex;
-    flex-direction: row-reverse;
 }
 .nav_a{
     font-size: 0;
@@ -91,6 +107,10 @@ img{
     border: none;
 }
 .nav_btn:hover{
+    border-bottom: .04rem #fefefe solid;
+    text-decoration: none;
+}
+.about{
     border-bottom: .04rem #fefefe solid;
     text-decoration: none;
 }
@@ -158,6 +178,12 @@ img{
     padding: 0 .2rem;
     border-bottom: #e1e1e1 2px solid;
     display: flex;
+    flex-direction: column;
+}
+.tudou_photo{
+    flex-shrink: 1;
+    width: 70vw;
+    height: 45vw;
 }
 .detial{
     padding: .1rem .2rem;
