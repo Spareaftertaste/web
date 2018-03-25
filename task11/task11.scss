@@ -1,0 +1,94 @@
+html{
+  font-size: 100px;
+  background-color: #eff0f4;
+}
+body{
+  font-size: 12px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+input{
+  outline: none;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #e1e5e7;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #e1e5e7;
+}
+$color: #5fc0cd;
+//以上是全局样式
+header{
+  padding: 0 .1rem;
+  height: .4rem;
+  background-color: $color;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .15rem;
+  .header_login{
+    font-size: .18rem;
+  }
+}
+//以上是header样式
+section{
+  //margin-top: .6rem;
+ div{
+   height: .4rem;
+   margin-top: .2rem;
+   .phone_number{
+     padding-left: .6rem;
+     margin-top: -.4rem;
+     box-sizing: border-box;
+     height: .45rem;
+     width: 100%;
+     border: none;
+   }
+   .phone_photo{
+     position: relative; top: -.53rem; left: 0;
+     display: inline-block;
+     width: .5rem;
+     height: .2rem;
+     background: url("img/iphone.png") no-repeat .1rem 0 ;
+     background-size: .15rem .2rem;
+     border-right: 1px #eaedee solid;
+   }
+   .password{
+     padding-left: .6rem;
+     margin-top: -.4rem;
+     box-sizing: border-box;
+     height: .45rem;
+     width: 100%;
+     border: none;
+   }
+   .password_photo{
+     position: relative; top: -.53rem; left: 0;
+     display: inline-block;
+     width: .5rem;
+     height: .2rem;
+     background: url("img/locked.png") no-repeat .1rem 0 ;
+     background-size: .15rem .2rem;
+     border-right: 1px #eaedee solid;
+   }
+   .login{
+     height: .45rem;
+     width: 100%;
+     border: none;
+     background-color: $color;
+     font-size: .18rem;
+     color: #fff;
+   }
+ }
+  a{
+    margin-top: .1rem;
+    margin-right: .2rem;
+    float: right;
+    color: $color;
+    text-decoration: none;
+  }
+}
