@@ -1,0 +1,74 @@
+html {
+  font-size: 100px;
+  background-color: #eff0f4; }
+
+body {
+  font-size: 12px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+input {
+  outline: none; }
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #e1e5e7; }
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #e1e5e7; }
+
+header {
+  padding: 0 .1rem;
+  height: .4rem;
+  background-color: #5fc0cd;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .15rem; }
+  header .header_login {
+    font-size: .18rem; }
+
+section {
+  margin-top: .1rem; }
+  section div {
+    height: .4rem;
+    margin-top: .2rem; }
+    section div input {
+      padding-left: .6rem;
+      box-sizing: border-box;
+      height: .45rem;
+      width: 100%;
+      border: none; }
+    section div div {
+      position: relative;
+      top: -.53rem;
+      left: 0;
+      display: inline-block;
+      width: .5rem;
+      height: .2rem;
+      background-size: .15rem .2rem;
+      border-right: 1px #eaedee solid; }
+    section div .phone_photo {
+      background: url("img/iphone.png") no-repeat 0.1rem 0;
+      background-size: .15rem .2rem; }
+    section div .password_photo {
+      background: url("img/locked.png") no-repeat 0.1rem 0;
+      background-size: .15rem .2rem; }
+    section div .login {
+      padding: 0;
+      margin-top: .2rem;
+      background-color: #5fc0cd;
+      font-size: .18rem;
+      color: #fff; }
+  section a {
+    margin-top: .3rem;
+    margin-right: .2rem;
+    float: right;
+    color: #5fc0cd;
+    text-decoration: none; }
+
+/*# sourceMappingURL=task11.css.map */

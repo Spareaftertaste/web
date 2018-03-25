@@ -37,55 +37,43 @@ header{
 }
 //以上是header样式
 section{
-  //margin-top: .6rem;
+  margin-top: .1rem;
  div{
    height: .4rem;
    margin-top: .2rem;
-   .phone_number{
+   input{
      padding-left: .6rem;
-     margin-top: -.4rem;
      box-sizing: border-box;
      height: .45rem;
      width: 100%;
      border: none;
+   }
+   div{
+     position: relative; top: -.53rem; left: 0;
+     display: inline-block;
+     width: .5rem;
+     height: .2rem;
+     background-size: .15rem .2rem;
+     border-right: 1px #eaedee solid;
    }
    .phone_photo{
-     position: relative; top: -.53rem; left: 0;
-     display: inline-block;
-     width: .5rem;
-     height: .2rem;
      background: url("img/iphone.png") no-repeat .1rem 0 ;
      background-size: .15rem .2rem;
-     border-right: 1px #eaedee solid;
-   }
-   .password{
-     padding-left: .6rem;
-     margin-top: -.4rem;
-     box-sizing: border-box;
-     height: .45rem;
-     width: 100%;
-     border: none;
    }
    .password_photo{
-     position: relative; top: -.53rem; left: 0;
-     display: inline-block;
-     width: .5rem;
-     height: .2rem;
      background: url("img/locked.png") no-repeat .1rem 0 ;
      background-size: .15rem .2rem;
-     border-right: 1px #eaedee solid;
    }
    .login{
-     height: .45rem;
-     width: 100%;
-     border: none;
+     padding: 0;
+     margin-top: .2rem;
      background-color: $color;
      font-size: .18rem;
      color: #fff;
    }
  }
   a{
-    margin-top: .1rem;
+    margin-top: .3rem;
     margin-right: .2rem;
     float: right;
     color: $color;
