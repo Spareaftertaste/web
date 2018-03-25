@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="task10-pc.css" media="(min-width:992px)">
     <link rel="stylesheet" href="task10-phone.css" media="(max-width:991px)">
-    <script type="text/javascript" src="../jquery-3.3.1/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </head>
 <body>
 <header>
@@ -37,7 +35,6 @@
             <a class="nav_a" href="#">
                 <button class="nav_btn">品质保障</button>
             </a>
-
         </div>
     </div>
 </nav>
@@ -70,75 +67,134 @@
     <form>
         <div class="form-group">
             <div class="form_title box_type">选择箱型</div>
-            <div class="select_group">
-                <label>
-                    <input type="radio" name="box" checked>
-                    <span>对口箱</span>
-                </label>
-                <label>
-                    <input type="radio" name="box">飞机盒
-                </label>
-                <label>
-                    <input type="radio" name="box">天地盖
-                </label>
+            <div class="flex">
+                <div class="select_group">
+                        <input type="radio" id="Counterpart" name="box" checked>
+                        <label class="label1" for="Counterpart">对口箱</label>
+                        <input type="radio" id="Aircraft" name="box">
+                        <label class="label1" for="Aircraft">飞机盒</label>
+                        <input type="radio" id="Cardboard" name="box">
+                        <label class="label1" for="Cardboard">天地盖</label>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown_btn" data-toggle="dropdown">
+                        <span class="">查看详情</span>
+                        <span class="square">
+                            <span class="glyphicon glyphicon-triangle-bottom"></span>
+                        </span>
+                    </div>
+                    <ul class="dropdown-menu dropdown-set">
+                        <li>233</li>
+                        <li>233</li>
+                        <li>233</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="form-group">
             <div class="form_title box_size">确定尺寸</div>
-            <div>
-                <label>
-                    <input type="radio" name="size" checked>外径
-                    <span>
-                        长<input type="text" class="size_value">mm
-                    </span>
-                    <span>
-                        宽<input type="text" class="size_value">mm
-                    </span>
-                    <span>
-                        高<input type="text" class="size_value">mm
-                    </span>
-                </label>
-            </div>
-            <div>
-                <label>
-                    <input type="radio" name="size">内径
-                    <span>
-                        长<input type="text">mm
-                    </span>
-                    <span>
-                        宽<input type="text">mm
-                    </span>
-                    <span>
-                        高<input type="text">mm
-                    </span>
-                </label>
+            <div class="flex">
+                <div>
+                    <div class="box_size_1">
+                        <label class="flex">
+                            <input type="radio" id="outer" name="size" checked>
+                            <label for="outer" class="label1">外径</label>
+                            <label for="outer_length" class="label1">
+                                长<input type="text" name="size" id="outer_length" size="3px"/>mm
+                            </label>
+                            <label for="outer_width" class="label1">
+                                宽<input type="text" name="size" id="outer_width" size="3px"/>mm
+                            </label>
+                            <label for="outer_height" class="label1">
+                                高<input type="text" name="size" id="outer_height" size="3px" />mm
+                            </label>
+                        </label>
+                    </div>
+                    <div class="box_size_2">
+                        <label class="flex">
+                            <input type="radio" name="size" id="inner" />
+                            <label for="inner" class="label1">内径</label>
+                            <label for="inner_length" class="label1">
+                                长<input type="text" name="size" id="inner_length" size="3px"/>mm
+                            </label>
+                            <label for="inner_width" class="label1">
+                                宽<input type="text" name="size" id="inner_width" size="3px"/>mm
+                            </label>
+                            <label for="inner_height" class="label1">
+                                高<input type="text" name="size" id="inner_height" size="3px" />mm
+                            </label>
+                        </label>
+                    </div>
+                </div>
+                <div class="dropdown dropdown_middle">
+                    <div class="dropdown_btn" data-toggle="dropdown">
+                        <span class="">查看详情</span>
+                        <span class="square">
+                            <span class="glyphicon glyphicon-triangle-bottom"></span>
+                        </span>
+                    </div>
+                    <ul class="dropdown-menu dropdown-set">
+                        <li>233</li>
+                        <li>233</li>
+                        <li>233</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="form-group">
             <div class="form_title box_material">选择材质</div>
-            <div class="select_group">
-                <label>
-                    <input type="radio" name="box" checked>三层A瓦优质
-                </label>
-                <label>
-                    <input type="radio" name="box">三层A瓦优质
-                </label>
-                <label>
-                    <input type="radio" name="box">三层A瓦优质
-                </label>
-                <label>
-                    <input type="radio" name="box">三层A瓦优质
-                </label>
-                <label>
-                    <input type="radio" name="box">三层A瓦优质
-                </label>
+            <div class="flex">
+                <div class="select_group">
+                    <input type="radio" id="material1" name="type" checked>
+                    <label class="label1" for="material1">三层A瓦优质</label>
+                    <input type="radio" id="material2" name="type">
+                    <label class="label1" for="material2">三层A瓦优质</label>
+                    <input type="radio" id="material3" name="type">
+                    <label class="label1" for="material3">三层A瓦优质</label>
+                    <input type="radio" id="material4" name="type">
+                    <label class="label1" for="material4">三层A瓦优质</label>
+                    <input type="radio" id="material5" name="type">
+                    <label class="label1" for="material5">三层A瓦优质</label>
+                </div>
+                <div class="dropdown">
+                    <div class="dropdown_btn" data-toggle="dropdown">
+                        <span class="">查看详情</span>
+                        <span class="square">
+                            <span class="glyphicon glyphicon-triangle-bottom"></span>
+                        </span>
+                    </div>
+                    <ul class="dropdown-menu dropdown-set">
+                        <li>233</li>
+                        <li>233</li>
+                        <li>233</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <input type="submit" class="submit" value="下一步">
+        <div class="form_footer">
+            <input type="submit" class="submit" value="下一步">
+        </div>
     </form>
 </section>
 <footer>
-
+    <div class="footer_content">51包装网— 纸箱包装首选服务平台</div>
+    <div class="friend_link">
+        <a href="#">关于我们</a>
+        <a href="#">联系我们</a>
+        <a href="#">配送流程</a>
+        <a href="#">下单指南</a>
+        <a href="#">媒体介绍</a>
+    </div>
+    <div class="qrcode">
+        <div>tel:400-820-8820</div>
+        <div>企业qq：123456789</div>
+        <div>微信号XXXXXXXX</div>
+    </div>
 </footer>
+<div class="license_plate">
+    51baozhuang.com015 &#12288&#12288 All rights reserved. &#12288&#12288 京icp备99999999-1
+</div>
+<script type="text/javascript" src="../jquery-3.3.1/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </body>
 </html>

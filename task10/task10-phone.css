@@ -1,0 +1,283 @@
+html{
+    font-size: 100px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 0 8vw;
+    background-color: #1d7ad9;
+    font-size: .08rem;
+    color: #fff;
+    height: .4rem;
+    line-height: .4rem;
+}
+nav{
+    padding: 0 8vw;
+    height: .8rem;
+    background-color: #f9f9f9;
+    color: #333;
+}
+section{
+    padding: 0 8vw .5rem 8vw;
+}
+footer{
+    padding: .2rem 8vw;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: .1rem;
+    color: #999;
+}
+form{
+    border: 1px #e8e8e8 solid;
+}
+input{
+    font-size: .05rem;
+    /*font-weight: ;*/
+}
+a {
+    height: 100%;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+button{
+    outline: none;
+}
+label{
+    margin: 0;
+    font-size: .11rem;
+    color: #666;
+    font-weight: 600;
+}
+.row{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/*以上是全局样式*/
+.header_btn_list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.register{
+    height: .4rem;
+    padding: 0 .15rem;
+    background-color: #fff;
+    color: #333;
+}
+.login{
+    padding-right: .2rem;
+    color: #fff;
+}
+/*以上是顶部样式*/
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_btn{
+    margin-top: .2rem;
+    /*margin-left: .2rem;*/
+    padding: 0 .1rem;
+    font-size: .1rem;
+    height: .4rem;
+    line-height: .4rem;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+}
+.index{
+    background-color: #1d7ad9;
+    color: #fff;
+}
+/*以上是导航栏的样式*/
+.line{
+    height: .4rem;
+    width: 20vw;
+    border-bottom: 3px solid #ccc;
+}
+.line_1{
+    border-bottom: 3px solid #ff7f02;
+}
+.numble {
+    margin-top: -.1rem;
+    margin-left: 8.5vw;
+    width: .15rem;
+    height: .15rem;
+    line-height: .15rem;
+    text-align: center;
+    font-size: .1rem;
+    border-radius: .075rem;
+    background-color: #ccc;
+    color: #fff;
+}
+.numble_1{
+    background-color: #ff7f02;
+}
+.progress_bar_content{
+    margin-top: .2rem;
+    text-align: center;
+    color: #ccc;
+    font-size: .1rem;
+}
+.progress_bar_content_1{
+    color: #ff7f02;
+}
+/*以上是进度条样式*/
+.section_title{
+    margin: .5rem 0 .2rem 0;
+    padding-left: .05rem;
+    height: .16rem;
+    line-height: .16rem;
+    font-size: .18rem;
+    border-left: #1d7ad9 2px solid;
+}
+.form_title{
+    padding: 0 .3rem;
+    height: .4rem;
+    line-height: .4rem;
+    font-weight: bold;
+    color: #1d7ad9;
+}
+.box_type{
+    background: url("img/box.png") no-repeat #f3f3f3 .05rem .1rem;
+    background-size: .2rem .2rem;
+}
+.box_size{
+    background: url("img/ruler.png") no-repeat #f3f3f3 .05rem .1rem;
+    background-size: .2rem .2rem;
+}
+.box_material{
+    background: url("img/sinipa.png") no-repeat #f3f3f3 .05rem .1rem;
+    background-size: .18rem .2rem;
+}
+.select_group{
+    margin-top: .18rem;
+    padding: 0 .3rem;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+input[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: .15rem;
+    margin-bottom: .02rem;
+    border-radius: 50%;
+    border: .01rem solid #d7d7d7;
+    text-indent: .015em;
+    /*line-height: 1;*/
+}
+input[type="radio"]:checked + label::before {
+    background-color: #fff;
+    background-clip: content-box;
+    color: #fff;
+    border:  #1d7ad9 .06rem solid;
+    /*padding: .02rem;*/
+}
+input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.label1{
+    margin-right: .3rem;
+    margin-top: .1rem;
+    height: .18rem;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dropdown{
+    margin-top: .15rem;
+    margin-right: .2rem;
+    padding: .07rem .05rem 0 .1rem;
+    border: #e8e8e8 1px solid;
+    height: .3rem;
+    width: .8rem;
+    font-size: .11rem;
+    color: #a9a9a9;
+}
+.dropdown_middle{
+    margin-top: .3rem;
+}
+.dropdown_btn{
+    display: flex;
+    justify-content: space-between;
+}
+.square{
+    display: inline-block;
+    width: .15rem;
+    height: .15rem;
+    line-height: .15rem;
+    text-align: center;
+    background-color: #1d7ad9;
+}
+.glyphicon-triangle-bottom{
+    color: #fff;
+    font-size: .1rem;
+}
+.box_size_1{
+    padding-left: .3rem;
+    margin-top: .18rem;
+}
+.box_size_2{
+    padding-left: .3rem;
+    margin-top: .18rem;
+}
+.form_footer{
+    height: 1.2rem;
+    border-top: 1px #e8e8e8 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    display: inline-block;
+    width: 1rem;
+    height: .3rem;
+    background-color: #e15053;
+    font-size: .15rem;
+    color: #fff;
+    border: none;
+}
+/*以上是中间表格样式*/
+.friend_link{
+    margin-bottom: .2rem;
+    width: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_content{
+    margin-bottom: .2rem;
+}
+.friend_link> a{
+    height: .1rem;
+    padding: 0 .1rem .05rem 0;
+}
+.qrcode{
+    padding-right: .5rem;
+    background: url("img/qrcode.png") no-repeat .9rem;
+    background-size: .5rem .5rem;
+}
+/*以上是底部样式*/
+.license_plate {
+    position: relative;
+    bottom: 0;
+    padding: .03rem 0;
+    text-align: center;
+    color: #fff;
+    font-size: .08rem;
+    background-color: #1d7ad9;
+}
