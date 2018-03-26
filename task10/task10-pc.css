@@ -101,8 +101,14 @@ label{
     color: #fff;
 }
 /*以上是导航栏的样式*/
-.progress_bar{
-
+.progress_bar:hover .line{
+    border-bottom: 3px solid #ff7f02;
+}
+.progress_bar:hover .number{
+    background-color: #ff7f02;
+}
+.progress_bar:hover .progress_bar_content{
+    color: #ff7f02;
 }
 .line{
     height: .4rem;
@@ -112,7 +118,7 @@ label{
 .line_1{
     border-bottom: 3px solid #ff7f02;
 }
-.numble {
+.number {
     margin-top: -.1rem;
     margin-left: .4rem;
     width: .15rem;
@@ -124,7 +130,7 @@ label{
     background-color: #ccc;
     color: #fff;
 }
-.numble_1{
+.number_1{
     background-color: #ff7f02;
 }
 .progress_bar_content{
@@ -267,7 +273,7 @@ input[type="radio"] {
 }
 .qrcode{
     padding-right: .5rem;
-    background: url("img/qrcode.png") no-repeat .9rem;
+    background: url("img/qrcode.png") no-repeat center right;
     background-size: .5rem .5rem;
 }
 /*以上是底部样式*/
