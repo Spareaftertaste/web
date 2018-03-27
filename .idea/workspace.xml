@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/task12/list.css" afterPath="$PROJECT_DIR$/task12/list.css" />
       <change beforePath="$PROJECT_DIR$/task12/list.css.map" afterPath="$PROJECT_DIR$/task12/list.css.map" />
-      <change beforePath="$PROJECT_DIR$/task12/list.html" afterPath="$PROJECT_DIR$/task12/list.html" />
       <change beforePath="$PROJECT_DIR$/task12/list.scss" afterPath="$PROJECT_DIR$/task12/list.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task12/list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -78,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task12/list.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="157" column="17" lean-forward="false" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
+            <state relative-caret-position="189">
+              <caret line="174" column="1" lean-forward="true" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -181,8 +180,8 @@
         <option value="$PROJECT_DIR$/task12/list.css" />
         <option value="$PROJECT_DIR$/task12/index.html" />
         <option value="$PROJECT_DIR$/task12/index.scss" />
-        <option value="$PROJECT_DIR$/task12/list.scss" />
         <option value="$PROJECT_DIR$/task12/list.html" />
+        <option value="$PROJECT_DIR$/task12/list.scss" />
       </list>
     </option>
   </component>
@@ -346,7 +345,7 @@
       <workItem from="1522046385433" duration="696000" />
       <workItem from="1522062704869" duration="2602000" />
       <workItem from="1522078154725" duration="598000" />
-      <workItem from="1522127313906" duration="22185000" />
+      <workItem from="1522127313906" duration="22399000" />
     </task>
     <task id="LOCAL-00001" summary="nothing change">
       <created>1520313780916</created>
@@ -649,11 +648,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522160748348</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="修正了任务12页面的之间的转跳">
+      <created>1522161082637</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1522161082637</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371275000" />
+    <option name="totallyTimeSpent" value="371489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="414" y="24" width="1347" height="1070" extended-state="0" />
@@ -1064,14 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task12/list.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="157" column="17" lean-forward="false" selection-start-line="157" selection-start-column="17" selection-end-line="157" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task12/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1105,6 +1103,14 @@
             <element signature="n#div#0;n#a#7;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#a#7;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task12/list.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="174" column="1" lean-forward="true" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
