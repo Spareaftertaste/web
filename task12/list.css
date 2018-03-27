@@ -99,20 +99,23 @@ nav {
 
 section {
   margin-top: .95rem; }
-  section div {
-    border-bottom: #e1e5e7 2px solid;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    section div div {
+  section a {
+    display: block;
+    text-decoration: none; }
+    section a div {
+      border-bottom: #e1e5e7 2px solid;
       display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
-      height: .9rem;
-      border: none; }
-      section div div div {
-        width: 100%;
-        text-align: left; }
+      justify-content: space-between;
+      align-items: center; }
+      section a div div {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: .9rem;
+        border: none; }
+        section a div div div {
+          width: 100%;
+          text-align: left; }
 
 .service-date, .service-address {
   display: block;
@@ -133,11 +136,13 @@ section {
 .date {
   margin-left: .6rem;
   display: block;
+  color: #333;
   height: .3rem;
   line-height: .3rem;
   font-size: .13rem; }
 
 .arrow {
+  margin-top: .01rem;
   margin-left: .1rem;
   display: inline-block;
   width: 10px;
