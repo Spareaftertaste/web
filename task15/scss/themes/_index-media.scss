@@ -55,6 +55,13 @@
   .huge-number{
     font-size: 7vw;
   }
+  .link span{
+    font-size: .12rem;
+    padding-left: .05rem;
+  }
+  .link{
+    padding-left: .1rem;
+  }
 }
 @media (min-width: 769px) and (max-width: 992px){
   header{
@@ -124,6 +131,13 @@
   .huge-number{
     font-size: .55rem;
   }
+  .link{
+    padding-left: .03rem;
+  }
+  .link span{
+    font-size: .13rem;
+    padding-left: .01rem;
+  }
 }
 @media all and (min-width: 993px){
   header{
@@ -181,6 +195,10 @@
   }
   .huge-number{
     font-size: .7rem;
+  }
+  .link span{
+    padding-left: .05rem;
+    font-size: .16rem;
   }
 }
 

@@ -174,11 +174,17 @@ section{
   flex-wrap: wrap;
 }
 .link{
+  display: inline-block;
   color: #999;
-  height: .3rem;
-  line-height: .3rem;
+  font-size: 0;
   flex-basis: 10%;
 }
 .link-point{
   font-size: .2rem;
+}
+.link span{
+  display: inline-block;
+  height: .3rem;
+  line-height: .3rem;
+
 }
