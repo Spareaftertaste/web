@@ -3,6 +3,9 @@
 @import "../base/header";
 @import "../base/nav";
 @import "../base/footer";
+body{
+  background-color: #fafafa;
+}
 a:hover{
   text-decoration: none;
 }
