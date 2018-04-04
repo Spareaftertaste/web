@@ -1,0 +1,174 @@
+@import "../components/reset";
+@import "../themes/career-media";
+@import "../base/header";
+@import "../base/nav";
+@import "../base/footer";
+a:hover{
+  text-decoration: none;
+}
+section{
+  padding: .2rem 8vw 1rem 8vw;
+  background-color: #fafafa;
+}
+.section-title{
+  color: #29b078;
+}
+.direction{
+  margin-top: .2rem;
+  height: .4rem;
+  border-top: 1px #d0d6d9 solid;
+  border-bottom: 1px #edf1f2 solid;
+  display: flex;
+  align-items: center;
+}
+.direction-title{
+  color: #a1a1a1;
+  height: .3rem;
+  line-height: .3rem;
+}
+.direction-btn{
+  display: inline-block;
+  padding: 0 .05rem;
+  height: .4rem;
+  line-height: .4rem;
+  margin: 0 .1rem;
+  color: #333;
+}
+.direction-btn:hover{
+  color: #fff;
+  background-color: #29b078;
+}
+.job-title{
+  margin-bottom: .4rem;
+  height: .4rem;
+  line-height: .4rem;
+  border-bottom: #d0d6d9 1px solid;
+}
+.job-label{
+  position: relative;
+  margin-bottom: .2rem;
+  display: inline-block;
+  width: 2.8rem;
+  border: #eeeded 1px solid;
+  font-size: .11rem;
+}
+.label-title{
+  height: 1.2rem;
+  border-bottom: #eeeded 1px solid;
+  display: flex;
+}
+.label-photo{
+  margin: .1rem;
+  display: inline-block;
+  background: url("../../img/photo_03.png") no-repeat;
+  background-size: 1rem 1rem;
+  width: 1rem;
+  height: 1rem;
+}
+.label-content{
+  display: inline-block;
+  width: 2.1rem;
+  height: 100%;
+}
+.label-content-title{
+  height: .3rem;
+  line-height: .3rem;
+  font-size: .13rem;
+}
+.label-threshold{
+  display: inline-block;
+  padding-left: .1rem;
+  height: .22rem;
+  line-height: .22rem;
+  width: 50%;
+  border-right: #edf1f2 1px solid;
+}
+.label-difficulty{
+  display: inline-block;
+  padding-left: .1rem;
+  height: .22rem;
+  line-height: .22rem;
+}
+.label-time{
+  display: inline-block;
+  padding-left: .1rem;
+  height: .22rem;
+  line-height: .22rem;
+  width: 50%;
+  border-right: #edf1f2 1px solid;
+}
+.label-rare{
+  display: inline-block;
+  padding-left: .1rem;
+  height: .22rem;
+  line-height: .22rem;
+}
+.line{
+  border-bottom: #edf1f2 1px solid;
+}
+.wage{
+  display: flex;
+  border-bottom: #edf1f2 1px solid;
+}
+.label-wages{
+  height: .66rem;
+  line-height: .66rem;
+  text-align: center;
+  color: #a1a1a1;
+  width: 50%;
+  border-right: #edf1f2 1px solid;
+}
+.wage-list{
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+.wages-a{
+  padding: 0 .1rem;
+  height: .22rem;
+  line-height: .22rem;
+  border-bottom: #edf1f2 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.label-people{
+  padding-left: .1rem;
+  height: .4rem;
+  line-height: .4rem;
+  font-size: .13rem;
+  border-bottom: #edf1f2 1px solid;
+}
+.label-tip{
+  padding-left: .1rem;
+  height: .4rem;
+  line-height:.4rem;
+  font-size: .08rem;
+  color: #a1a1a1;
+}
+.label-start{
+  padding-left: .1rem;
+  color: #ff5c00;
+}
+.red{
+  color: #f01400;
+}
+.gray{
+  color: #a1a1a1;
+}
+.eggs{
+  position: absolute;top: 0;
+  padding: .2rem .1rem;
+  background-color: rgba(69,69,69,.6);
+  height: 3.133rem;
+  color: #fff;
+  font-size: .13rem;
+  visibility: hidden;
+}
+.eggs-title{
+  margin-bottom: .2rem;
+  font-size: .18rem;
+  text-align: center;
+}
+.job-label:hover .eggs{
+  visibility: visible;
+}

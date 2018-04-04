@@ -1,0 +1,186 @@
+@media all and (max-width: 768px) {
+  header{
+    font-size: .12rem;
+    div{
+      button{
+        display: none;
+      }
+      a{
+        display: block;
+      }
+      .login{
+        margin-right: .2rem;
+        padding-right: .2rem;
+        height: .1rem;
+        line-height: .1rem;
+        border-right: #26a26f 2px  solid;
+        color: #333;
+      }
+      .register{
+        color: #333;
+      }
+    }
+  }
+  nav{
+    justify-content: space-between;
+  }
+  .nav-btn{
+    width: 15vw;
+  }
+  .rocket{
+    width: 100%;
+  }
+  .list-step{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .student{
+    margin: .1rem auto;
+    width: 2rem ;
+  }
+  .list-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .1rem;
+  }
+  .carousel-text{
+    left: 10vw;
+    font-size: 3vw;
+  }
+  .carousel-content{
+    font-size: 4vw;
+  }
+  .huge-number{
+    font-size: 7vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px){
+  header{
+    font-size: .12rem;
+    div{
+      button{
+        display: none;
+      }
+      a{
+        display: block;
+      }
+      .login{
+        margin-right: .2rem;
+        padding-right: .2rem;
+        height: .1rem;
+        line-height: .1rem;
+        border-right: #26a26f 2px  solid;
+        color: #333;
+      }
+      .register{
+        color: #333;
+      }
+      .rocket{
+        width: 100%;
+      }
+    }
+  }
+  nav{
+    justify-content: space-between;
+  }
+  .nav-btn{
+    width: 13vw;
+  }
+  .list-step{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .step{
+    width: 20vw;
+  }
+  .student{
+    margin: .1rem auto;
+    width: 3rem ;
+  }
+  .list-link {
+    display: flex;
+    align-items: center;
+    font-size: .12rem;
+    div{
+      flex-grow: 1;
+    }
+  }
+  footer{
+    display: flex;
+    div{
+      flex-grow: 1;
+    }
+  }
+  .carousel-text{
+    left: 16vw;
+    font-size: .2rem;
+  }
+  .carousel-content{
+    font-size: .32rem;
+  }
+  .huge-number{
+    font-size: .55rem;
+  }
+}
+@media all and (min-width: 993px){
+  header{
+    font-size: .15rem;
+    div{
+      a{
+        display: none;
+      }
+    }
+  }
+  nav{
+    justify-content: flex-end;
+  }
+  .nav-btn{
+    width: .8rem;
+  }
+  .people{
+    border-right: 1px dashed #dedede;
+  }
+  .list-rocket{
+    display: flex;
+  }
+  .rocket{
+    width: 20vw;
+  }
+  .list-step{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .step{
+    width: 20vw;
+  }
+  .student{
+    margin: .1rem;
+  }
+  .list-link{
+    display: flex;
+    div{
+      flex-grow: 1;
+    }
+  }
+  footer{
+    display: flex;
+    div{
+      flex-grow: 1;
+    }
+  }
+  .carousel-text{
+    left: 16vw;
+    font-size: .25rem;
+  }
+  .carousel-content{
+    font-size: .4rem;
+  }
+  .huge-number{
+    font-size: .7rem;
+  }
+}
+

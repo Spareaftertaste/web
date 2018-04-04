@@ -1,0 +1,104 @@
+@media all and (max-width: 768px) {
+  header{
+    font-size: .12rem;
+    div{
+      button{
+        display: none;
+      }
+      a{
+        display: block;
+      }
+      .login{
+        margin-right: .2rem;
+        padding-right: .2rem;
+        height: .1rem;
+        line-height: .1rem;
+        border-right: #26a26f 2px  solid;
+        color: #333;
+      }
+      .register{
+        color: #333;
+      }
+    }
+  }
+  nav{
+    justify-content: space-between;
+  }
+  .nav-btn{
+    width: 15vw;
+  }
+  .tudou-introduction{
+    flex-direction: column;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px){
+  header{
+    font-size: .12rem;
+    div{
+      button{
+        display: none;
+      }
+      a{
+        display: block;
+      }
+      .login{
+        margin-right: .2rem;
+        padding-right: .2rem;
+        height: .1rem;
+        line-height: .1rem;
+        border-right: #26a26f 2px  solid;
+        color: #333;
+      }
+      .register{
+        color: #333;
+      }
+      .rocket{
+        width: 100%;
+      }
+    }
+  }
+  nav{
+    justify-content: space-between;
+  }
+  .nav-btn{
+    width: 13vw;
+  }
+  footer{
+    display: flex;
+    div{
+      flex-grow: 1;
+    }
+  }
+  .tudou-introduction{
+    flex-direction: column;
+  }
+}
+@media all and (min-width: 993px){
+  header{
+    font-size: .15rem;
+    div{
+      a{
+        display: none;
+      }
+    }
+  }
+  nav{
+    justify-content: flex-end;
+  }
+  .nav-btn{
+    width: .8rem;
+  }
+  footer{
+    display: flex;
+    div{
+      flex-grow: 1;
+    }
+  }
+  .content{
+    display: flex;
+  }
+  .company{
+    margin-right: .2rem;
+    width: 10rem;
+  }
+}

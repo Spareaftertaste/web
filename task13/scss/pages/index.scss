@@ -19,11 +19,11 @@ a{
 section{
   width: 100%;
   background-color: #f0f0f0;
-  transform: translateX(0px);
+  //transform: translateX(0px);
   transition: transform 400ms ease;
 }
 .section-content{
-  padding: 0 .2rem;
+  padding: .1rem .2rem;
   text-align: center;
 }
 .recent-game{

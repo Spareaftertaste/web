@@ -5,8 +5,9 @@
 .side-nav{
   position: fixed;left: -50vw;top: 0;
   width: 50vw;
-  height: 5rem;
+  //height: 5rem;
   background-color: #fff;
+  transition: transform 400ms ease;
   li{
     a{
       position: relative;
@@ -85,7 +86,7 @@
 }
 #menu:checked ~ .side-nav {
   left: 0;
-  transition: left 250ms ease;
+  transition: left 400ms ease;
 }
 #menu:checked ~ section {
   transform: translateX(50vw);
