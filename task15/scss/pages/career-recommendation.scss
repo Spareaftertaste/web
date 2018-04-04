@@ -15,7 +15,6 @@ section{
 }
 .direction{
   margin-top: .2rem;
-  height: .4rem;
   border-top: 1px #d0d6d9 solid;
   border-bottom: 1px #edf1f2 solid;
   display: flex;
@@ -25,6 +24,7 @@ section{
   color: #a1a1a1;
   height: .3rem;
   line-height: .3rem;
+  flex-shrink: 0;
 }
 .direction-btn{
   display: inline-block;

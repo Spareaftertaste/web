@@ -1,0 +1,184 @@
+@import "../components/reset";
+@import "../themes/index-media";
+@import "../components/carousel";
+@import "../base/header";
+@import "../base/nav";
+@import "../base/footer";
+body{
+  background-color: #fafafa;
+}
+section{
+  padding: 1rem 8vw 0 8vw;
+}
+.footer-nav{
+  padding: 0 8vw;
+}
+.rocket{
+  box-sizing: border-box;
+  text-align: center;
+  padding: .2rem ;
+}
+.rocket-img{
+  height: .6rem;
+  line-height: .6rem;
+}
+.rocket-title{
+  color: #333;
+  font-weight: bold;
+  margin-bottom: .2rem;
+}
+.rocket> .rocket-cotent{
+  text-align: center;
+  color: #999;
+}
+.user-statistics{
+  padding-top: .2rem;
+  color: #999;
+}
+.user-number{
+  margin: .1rem auto;
+  height: .15rem;
+  width: 1rem;
+  line-height: .15rem;
+  background: url("../../img/user.png") no-repeat .2rem 0;
+  background-size: .15rem .15rem;
+  color: #26a26f;
+  font-size: .15rem;
+}
+.step-title{
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  text-align: center;
+  color: #333;
+  font-size: .2rem;
+}
+.step{
+  display: flex;
+  align-items: center;
+  margin-bottom: .6rem;
+}
+.step-number{
+  display: inline-block;
+  width: .4rem;
+  height: .4rem;
+  line-height: .4rem;
+  border: 1px #999 solid;
+  border-radius: 2rem;
+  background-color: #fff;
+  color: #29b078;
+  font-size: .15rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+.step-content{
+  width: 1.2rem;
+  padding: .1rem;
+  display: inline-block;
+  color: #999;
+  font-size: .13rem;
+  flex-shrink: 1;
+}
+.step-arrow{
+  margin-right: .1rem;
+  background: url("../../img/arrow.png") no-repeat;
+  background-size: .2rem .2rem;
+  width: .2rem;
+  height: .2rem;
+  font-size: 0;
+}
+.blank-step{
+  margin-right: .1rem;
+  width: .2rem;
+}
+.student{
+  padding: .1rem .2rem;
+  background-color: #fff;
+  border: 2px solid #eeeded;
+  border-radius: 5px;
+  box-shadow: #eeeded;
+}
+.student-photo{
+  margin: 0 auto;
+  background: url("../../img/tom.png") no-repeat;
+  background-size: 2rem 2rem;
+  height: 1rem;
+  width: 1rem;
+}
+.student-photo-1{
+  background-position: -1rem -1rem
+}
+.student-photo-2{
+  background-position: -1rem 0;
+}
+.student-photo-3{
+  background-position: 0 0;
+}
+.student-photo-4{
+  background-position: 0 -1rem;
+}
+.student-name{
+  margin: .2rem 0;
+  text-align: center;
+  color: #333;
+  font-size: .15rem;
+}
+.student-introduction{
+  color: #999;
+  font-size: .12rem;
+}
+.small-point-list{
+  display: flex;
+  justify-content: center;
+}
+.small-point {
+  margin: .1rem .05rem;
+  width: .1rem;
+  height: .1rem;
+  border-radius: .05rem;
+  border: 1px #e4e4e4 solid;
+  background-color: #fff;
+}
+.small-point:hover{
+  background-color: #29b078;
+}
+.company-list{
+  margin-bottom: .5rem;
+  display: flex;
+  justify-content: center;
+}
+.company{
+  padding: .4rem 0;
+  background-color: #fff;
+  flex-basis: 25%;
+}
+.company-photo{
+  max-width: 60%;
+  max-height: 60%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.company:hover{
+  border: 2px #f5f5f5 solid;
+  box-shadow: 5px 5px 5px 5px #f5f5f5;
+}
+.link-title{
+  margin: .1rem 0;
+  text-align: center;
+  color: #333;
+  font-size: .13rem;
+}
+.friendship-link{
+  display: flex;
+  flex-wrap: wrap;
+}
+.link{
+  color: #999;
+  height: .3rem;
+  line-height: .3rem;
+  flex-basis: 10%;
+}
+.link-point{
+  font-size: .2rem;
+}
